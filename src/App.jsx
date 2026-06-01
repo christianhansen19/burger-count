@@ -11,7 +11,7 @@ import { ref, onValue, set, get, runTransaction } from "firebase/database";
 // ============================================================
 
 // ---- Config you can tweak ---------------------------------
-const MAX_P = 15; // max number of players
+const MAX_P = 30; // max number of players
 const ROOT = "burgers"; // Realtime Database node that holds everyone's counts
 const ME_KEY = "burgerName_v1"; // localStorage key for "who am I" auto-login
 const THEME_KEY = "burgerTheme_v1"; // localStorage key for light/dark choice
